@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#fdf6ec">
+  <title>Моя кухня</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topnav">
+    <div class="topnav__inner">
+      <a class="topnav__title" href="#/plan">🍳 Моя кухня</a>
+      <nav class="topnav__menu">
+        <a href="#/plan" data-route="plan">📅 План</a>
+        <a href="#/recipes" data-route="recipes">🍳 Рецепты</a>
+        <a href="#/shopping" data-route="shopping">🛒 Покупки</a>
+        <a href="#/profile" data-route="profile">👤 Профиль</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app" class="app">
+    <div class="loader">Загрузка…</div>
+  </main>
+
+  <nav class="tabbar">
+    <a href="#/plan" data-route="plan"><span class="tabbar__icon">📅</span><span class="tabbar__label">План</span></a>
+    <a href="#/recipes" data-route="recipes"><span class="tabbar__icon">🍳</span><span class="tabbar__label">Рецепты</span></a>
+    <a href="#/shopping" data-route="shopping"><span class="tabbar__icon">🛒</span><span class="tabbar__label">Покупки</span></a>
+    <a href="#/profile" data-route="profile"><span class="tabbar__icon">👤</span><span class="tabbar__label">Профиль</span></a>
+  </nav>
+
+  <script src="app.js"></script>
+</body>
+</html>
