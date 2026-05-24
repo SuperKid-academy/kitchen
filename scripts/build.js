@@ -1847,26 +1847,40 @@ function parsePlan(text) {
     rows.push(cells);
   }
 
-  // map текста к recipeId
+  // map текста к recipeId. ВАЖЕН ПОРЯДОК: первое совпадение выигрывает,
+  // поэтому более специфичные паттерны идут раньше общих.
   const titleMap = [
-    [/сырник/i,                'syrniki'],
-    [/тефтел/i,                'tefteli'],
-    [/тост.*пашот|яйцо.*пашот|тост.*лосос/i, 'toast-poached-salmon'],
+    // завтраки / тосты — специфичные первыми
+    [/скрэмбл/i,                'scrambled-salmon'],
+    [/тост.*пашот|яйцо.*пашот|тост.*лосос|тост.*авокадо/i, 'toast-poached-salmon'],
+    // стейки: минутка раньше общего «стейк»
+    [/стейк-минутка|стейк.*гречк/i, 'steak-quick-buckwheat'],
     [/стейк-вечер|стейк рибай|стейк/i, 'steak-ribeye'],
-    [/шакшук/i,                'shakshuka'],
-    [/болоньез/i,              'bolognese'],
-    [/овсянк/i,                'oatmeal'],
-    [/омлет/i,                 'omelet-cheese'],
-    [/мастав/i,                'mastava'],
-    [/тост.*авокадо|тост с авокадо/i, 'toast-poached-salmon'],
-    [/жареный рис/i,           'fried-rice-chicken'],
-    [/курица терияки|терияки/i, 'chicken-teriyaki'],
-    [/скрэмбл/i,               'scrambled-salmon'],
-    [/запеч.*курица|запечённая курица/i, 'baked-chicken-rosemary'],
-    [/крыл/i,                  'chicken-wings'],
-    [/ленив/i,                 null], // ленивый — не рецепт
-    [/сэндвич/i,               null],
-    [/лёгк|лёгкое|легк/i,      null],
+    // рыба в духовке (после скрэмбла, чтобы «лосось» в скрэмбле не перехватывался)
+    [/лосось.*духов|форель|лосось\/форель/i, 'baked-salmon-lemon'],
+    // основные
+    [/сырник/i,                 'syrniki'],
+    [/тефтел/i,                 'tefteli'],
+    [/шакшук/i,                 'shakshuka'],
+    [/овсянк/i,                 'oatmeal'],
+    [/омлет/i,                  'omelet-cheese'],
+    [/мастав/i,                 'mastava'],
+    [/жареный рис/i,            'fried-rice-chicken'],
+    [/терияки/i,                'chicken-teriyaki'],
+    [/запеч.*куриц/i,           'baked-chicken-rosemary'],
+    [/крыл/i,                   'chicken-wings'],
+    [/котлет/i,                 'chicken-cutlets-puree'],
+    [/алио|креветк/i,           'pasta-aglio-olio-shrimp'],
+    [/цезарь/i,                 'salad-caesar-chicken'],
+    [/тёплый салат|теплый салат/i, 'salad-warm-beef'],
+    [/большой плов/i,           'big-plov'],
+    [/плов/i,                   'plov'],
+    [/бефстроган/i,             'beef-stroganoff'],
+    [/болоньез/i,               'bolognese'],
+    // не рецепты
+    [/ленив/i,                  null],
+    [/сэндвич/i,                null],
+    [/лёгк|легк/i,              null],
   ];
 
   function matchId(text) {
@@ -1882,7 +1896,7 @@ function parsePlan(text) {
     return text.replace(/[*_]/g, '').replace(/^[^\wа-яА-Я]+/, '').trim();
   }
 
-  const monthMap = { 'мая': '05', 'апреля': '04', 'июня': '06' };
+  const monthMap = { 'января': '01', 'февраля': '02', 'марта': '03', 'апреля': '04', 'мая': '05', 'июня': '06', 'июля': '07', 'августа': '08', 'сентября': '09', 'октября': '10', 'ноября': '11', 'декабря': '12' };
 
   return rows.map(cells => {
     const [dateRaw, weekday, breakfast, lunch, dinner] = cells;
@@ -2005,9 +2019,17 @@ function parseShopping(text) {
 
 // ─── сборка ───────────────────────────────────────────────────────────────────
 
+// Текущий активный план. Чтобы вернуться к Плану №1 — поменяй на '1'.
+const ACTIVE_PLAN = '2';
+
+const PLAN_META = {
+  '1': { planTitle: 'План №1 — 1–10 мая',        planStartDate: '2026-05-01', planEndDate: '2026-05-10' },
+  '2': { planTitle: 'План №2 — 25 мая – 7 июня', planStartDate: '2026-05-25', planEndDate: '2026-06-07' },
+};
+
 function build() {
-  const planText = fs.readFileSync(path.join(SRC, 'meal-plan-1.md'), 'utf-8');
-  const shoppingText = fs.readFileSync(path.join(SRC, 'shopping-1.md'), 'utf-8');
+  const planText = fs.readFileSync(path.join(SRC, `meal-plan-${ACTIVE_PLAN}.md`), 'utf-8');
+  const shoppingText = fs.readFileSync(path.join(SRC, `shopping-${ACTIVE_PLAN}.md`), 'utf-8');
   const profileText = fs.readFileSync(path.join(SRC, 'my-food-profile.md'), 'utf-8');
 
   const plan = parsePlan(planText);
@@ -2015,9 +2037,7 @@ function build() {
 
   const data = {
     meta: {
-      planTitle: 'План №1 — 1–10 мая',
-      planStartDate: '2026-05-01',
-      planEndDate: '2026-05-10',
+      ...PLAN_META[ACTIVE_PLAN],
       generatedAt: new Date().toISOString(),
     },
     categories,

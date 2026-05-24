@@ -1,9 +1,9 @@
 {
   "meta": {
-    "planTitle": "План №1 — 1–10 мая",
-    "planStartDate": "2026-05-01",
-    "planEndDate": "2026-05-10",
-    "generatedAt": "2026-05-01T08:57:12.118Z"
+    "planTitle": "План №2 — 25 мая – 7 июня",
+    "planStartDate": "2026-05-25",
+    "planEndDate": "2026-06-07",
+    "generatedAt": "2026-05-24T13:14:04.455Z"
   },
   "categories": [
     {
@@ -5340,12 +5340,12 @@
   ],
   "plan": [
     {
-      "date": "2026-05-01",
-      "weekday": "Пт",
+      "date": "2026-05-25",
+      "weekday": "Пн",
       "meals": {
         "breakfast": {
-          "title": "Сырники",
-          "recipeId": "syrniki"
+          "title": "Омлет с сыром",
+          "recipeId": "omelet-cheese"
         },
         "lunch": {
           "title": "Сэндвич с курицей",
@@ -5358,44 +5358,26 @@
       }
     },
     {
-      "date": "2026-05-02",
-      "weekday": "Сб",
+      "date": "2026-05-26",
+      "weekday": "Вт",
       "meals": {
         "breakfast": {
-          "title": "Тост с яйцом-пашот и лососем",
-          "recipeId": "toast-poached-salmon"
+          "title": "Сырники",
+          "recipeId": "syrniki"
         },
         "lunch": {
-          "title": "Тефтели + салат",
+          "title": "Тефтели",
           "recipeId": "tefteli"
         },
         "dinner": {
-          "title": "СТЕЙК-ВЕЧЕР",
-          "recipeId": "steak-ribeye"
+          "title": "Стейк-минутка с гречкой",
+          "recipeId": "steak-quick-buckwheat"
         }
       }
     },
     {
-      "date": "2026-05-03",
-      "weekday": "Вс",
-      "meals": {
-        "breakfast": {
-          "title": "Шакшука",
-          "recipeId": "shakshuka"
-        },
-        "lunch": {
-          "title": "Лёгкий салат",
-          "recipeId": null
-        },
-        "dinner": {
-          "title": "Болоньезе (соус на 2 раза)",
-          "recipeId": "bolognese"
-        }
-      }
-    },
-    {
-      "date": "2026-05-04",
-      "weekday": "Пн",
+      "date": "2026-05-27",
+      "weekday": "Ср",
       "meals": {
         "breakfast": {
           "title": "Овсянка с орехами",
@@ -5406,32 +5388,104 @@
           "recipeId": "tefteli"
         },
         "dinner": {
-          "title": "Болоньезе",
-          "recipeId": "bolognese"
+          "title": "Плов с говядиной (батч на 4)",
+          "recipeId": "plov"
         }
       }
     },
     {
-      "date": "2026-05-05",
-      "weekday": "Вт",
+      "date": "2026-05-28",
+      "weekday": "Чт",
+      "meals": {
+        "breakfast": {
+          "title": "Скрэмбл с лососем",
+          "recipeId": "scrambled-salmon"
+        },
+        "lunch": {
+          "title": "Плов",
+          "recipeId": "plov"
+        },
+        "dinner": {
+          "title": "Бефстроганов (батч на 2)",
+          "recipeId": "beef-stroganoff"
+        }
+      }
+    },
+    {
+      "date": "2026-05-29",
+      "weekday": "Пт",
+      "meals": {
+        "breakfast": {
+          "title": "Шакшука",
+          "recipeId": "shakshuka"
+        },
+        "lunch": {
+          "title": "Плов",
+          "recipeId": "plov"
+        },
+        "dinner": {
+          "title": "Бефстроганов (остатки)",
+          "recipeId": "beef-stroganoff"
+        }
+      }
+    },
+    {
+      "date": "2026-05-30",
+      "weekday": "Сб",
+      "meals": {
+        "breakfast": {
+          "title": "Тост с яйцом-пашот",
+          "recipeId": "toast-poached-salmon"
+        },
+        "lunch": {
+          "title": "Плов (последняя)",
+          "recipeId": "plov"
+        },
+        "dinner": {
+          "title": "Запечённая курица (батч на 2)",
+          "recipeId": "baked-chicken-rosemary"
+        }
+      }
+    },
+    {
+      "date": "2026-05-31",
+      "weekday": "Вс",
       "meals": {
         "breakfast": {
           "title": "Омлет с сыром",
           "recipeId": "omelet-cheese"
         },
         "lunch": {
-          "title": "Сэндвич",
+          "title": "Запечённая курица",
+          "recipeId": "baked-chicken-rosemary"
+        },
+        "dinner": {
+          "title": "Лосось в духовке",
+          "recipeId": "baked-salmon-lemon"
+        }
+      }
+    },
+    {
+      "date": "2026-06-01",
+      "weekday": "Пн",
+      "meals": {
+        "breakfast": {
+          "title": "Овсянка с орехами",
+          "recipeId": "oatmeal"
+        },
+        "lunch": {
+          "title": "Сэндвич с курицей",
           "recipeId": null
         },
         "dinner": {
-          "title": "Мастава (на 3 раза)",
+          "title": "Мастава (батч на 3)",
           "recipeId": "mastava"
         }
       }
     },
     {
-      "date": "2026-05-06",
-      "weekday": "Ср",
+      "date": "2026-06-02",
+      "weekday": "Вт",
       "meals": {
         "breakfast": {
           "title": "Сырники",
@@ -5442,79 +5496,97 @@
           "recipeId": "mastava"
         },
         "dinner": {
+          "title": "Курица терияки с рисом",
+          "recipeId": "chicken-teriyaki"
+        }
+      }
+    },
+    {
+      "date": "2026-06-03",
+      "weekday": "Ср",
+      "meals": {
+        "breakfast": {
+          "title": "Омлет с сыром",
+          "recipeId": "omelet-cheese"
+        },
+        "lunch": {
+          "title": "Мастава (последняя)",
+          "recipeId": "mastava"
+        },
+        "dinner": {
           "title": "Жареный рис с курицей",
           "recipeId": "fried-rice-chicken"
         }
       }
     },
     {
-      "date": "2026-05-07",
+      "date": "2026-06-04",
       "weekday": "Чт",
-      "meals": {
-        "breakfast": {
-          "title": "Тост с авокадо",
-          "recipeId": "toast-poached-salmon"
-        },
-        "lunch": {
-          "title": "Мастава",
-          "recipeId": "mastava"
-        },
-        "dinner": {
-          "title": "Болоньезе (остатки)",
-          "recipeId": "bolognese"
-        }
-      }
-    },
-    {
-      "date": "2026-05-08",
-      "weekday": "Пт",
-      "meals": {
-        "breakfast": {
-          "title": "Овсянка",
-          "recipeId": "oatmeal"
-        },
-        "lunch": {
-          "title": "Мастава",
-          "recipeId": "mastava"
-        },
-        "dinner": {
-          "title": "Курица терияки (или 📞)",
-          "recipeId": "chicken-teriyaki"
-        }
-      }
-    },
-    {
-      "date": "2026-05-09",
-      "weekday": "Сб",
       "meals": {
         "breakfast": {
           "title": "Скрэмбл с лососем",
           "recipeId": "scrambled-salmon"
         },
         "lunch": {
-          "title": "Лёгкое",
-          "recipeId": null
+          "title": "Цезарь с курицей",
+          "recipeId": "salad-caesar-chicken"
         },
         "dinner": {
-          "title": "Запечённая курица (на 2)",
-          "recipeId": "baked-chicken-rosemary"
+          "title": "Куриные котлетки с пюре (батч на 2)",
+          "recipeId": "chicken-cutlets-puree"
         }
       }
     },
     {
-      "date": "2026-05-10",
+      "date": "2026-06-05",
+      "weekday": "Пт",
+      "meals": {
+        "breakfast": {
+          "title": "Шакшука",
+          "recipeId": "shakshuka"
+        },
+        "lunch": {
+          "title": "Куриные котлетки (остатки)",
+          "recipeId": "chicken-cutlets-puree"
+        },
+        "dinner": {
+          "title": "Паста алио-олио с креветками",
+          "recipeId": "pasta-aglio-olio-shrimp"
+        }
+      }
+    },
+    {
+      "date": "2026-06-06",
+      "weekday": "Сб",
+      "meals": {
+        "breakfast": {
+          "title": "Тост с яйцом-пашот",
+          "recipeId": "toast-poached-salmon"
+        },
+        "lunch": {
+          "title": "Лёгкий салат",
+          "recipeId": null
+        },
+        "dinner": {
+          "title": "Стейк рибай (стейк-вечер)",
+          "recipeId": "steak-ribeye"
+        }
+      }
+    },
+    {
+      "date": "2026-06-07",
       "weekday": "Вс",
       "meals": {
         "breakfast": {
-          "title": "Ленивый",
-          "recipeId": null
+          "title": "Сырники или омлет",
+          "recipeId": "syrniki"
         },
         "lunch": {
-          "title": "Запечённая курица",
-          "recipeId": "baked-chicken-rosemary"
+          "title": "Тёплый салат с говядиной",
+          "recipeId": "salad-warm-beef"
         },
         "dinner": {
-          "title": "Куриные крылья (или 📞)",
+          "title": "Куриные крылья (или заказ)",
           "recipeId": "chicken-wings"
         }
       }
@@ -5524,7 +5596,7 @@
     {
       "id": "main",
       "title": "Закупка 1 — главная",
-      "subtitle": "сегодня вечером или завтра утром",
+      "subtitle": "24–25 мая, на первую неделю",
       "groups": [
         {
           "id": "myaso-i-ryba",
@@ -5532,38 +5604,38 @@
           "title": "Мясо и рыба",
           "items": [
             {
-              "id": "steyk-ribay-main-0",
-              "text": "Стейк рибай — 1 шт (300–400 г), толщина 2.5–3 см  (на субботу 2 мая)",
-              "starred": true
-            },
-            {
-              "id": "farsh-govyazhiy-main-1",
-              "text": "Фарш говяжий — 1.1 кг (600 г тефтели + 500 г болоньезе) — часть в морозилку",
+              "id": "farsh-govyazhiy-main-0",
+              "text": "Фарш говяжий — 600 г (тефтели)",
               "starred": false
             },
             {
-              "id": "baranina-ili-govyadina-na-kostochke-main-2",
-              "text": "Баранина или говядина на косточке — 500 г (мастава) — в морозилку",
+              "id": "govyadina-dlya-steyka-minutki-main-1",
+              "text": "Говядина для стейка-минутки — 250 г (тонкий стейк)",
               "starred": false
             },
             {
-              "id": "kuritsa-tselaya-ili-okorochka-bedra-main-3",
-              "text": "Курица целая или окорочка/бёдра — 1 кг (запечённая курица 9 мая) — в морозилку",
+              "id": "govyadina-vyrezka-oguzok-main-2",
+              "text": "Говядина вырезка/огузок — 500 г (бефстроганов)",
               "starred": false
             },
             {
-              "id": "kurinoe-file-main-4",
-              "text": "Куриное филе — 600 г (жареный рис, терияки, сэндвичи)",
+              "id": "baranina-ili-govyadina-s-zhirkom-main-3",
+              "text": "Баранина или говядина с жирком — 500 г (плов) — в морозилку",
               "starred": false
             },
             {
-              "id": "kurinye-krylya-main-5",
-              "text": "Куриные крылья — 600 г (10 мая) — в морозилку",
+              "id": "kuritsa-tselaya-ili-okorochka-bedra-main-4",
+              "text": "Курица целая или окорочка/бёдра — 1.5 кг (запечённая курица 30 мая) — в морозилку",
               "starred": false
             },
             {
-              "id": "losos-slabosolenyy-main-6",
-              "text": "Лосось слабосолёный — 200 г",
+              "id": "file-lososya-ili-foreli-main-5",
+              "text": "Филе лосося или форели — 500 г (31 мая)",
+              "starred": false
+            },
+            {
+              "id": "slabosolenyy-losos-main-6",
+              "text": "Слабосолёный лосось — 150 г (скрэмбл, тосты)",
               "starred": false
             }
           ]
@@ -5575,17 +5647,17 @@
           "items": [
             {
               "id": "yaytsa-main-0",
-              "text": "Яйца — 30 шт (на 10 дней — много завтраков)",
+              "text": "Яйца — 30 шт",
               "starred": false
             },
             {
               "id": "tvorog-main-1",
-              "text": "Творог — 700 г (сырники несколько раз)",
+              "text": "Творог — 500 г (сырники, сухой!)",
               "starred": false
             },
             {
               "id": "smetana-main-2",
-              "text": "Сметана — 800 г (тефтели 200 + к сырникам 200 + к маставе 200 + общее)",
+              "text": "Сметана — 600 г (тефтели 200 + бефстроганов 200 + общее)",
               "starred": false
             },
             {
@@ -5595,34 +5667,24 @@
             },
             {
               "id": "syr-tverdyy-main-4",
-              "text": "Сыр твёрдый — 200 г (омлет, сэндвичи)",
+              "text": "Сыр твёрдый — 200 г (омлет)",
               "starred": false
             },
             {
-              "id": "parmezan-main-5",
-              "text": "Пармезан — 200 г (болоньезе + стейк-салат)",
-              "starred": false
-            },
-            {
-              "id": "slivochnoe-maslo-main-6",
+              "id": "slivochnoe-maslo-main-5",
               "text": "Сливочное масло — 200 г",
-              "starred": false
-            },
-            {
-              "id": "katyk-main-7",
-              "text": "Катык — 0.5 л (к маставе) (если нет — заменит сметана)",
               "starred": false
             }
           ]
         },
         {
-          "id": "ovoschi-frukty-zelen-tolko-na-1-yu-nedelyu",
+          "id": "ovoschi-frukty-zelen",
           "emoji": "🥬",
-          "title": "Овощи, фрукты, зелень (только на 1-ю неделю)",
+          "title": "Овощи, фрукты, зелень",
           "items": [
             {
               "id": "luk-repchatyy-main-0",
-              "text": "Лук репчатый — 5 шт",
+              "text": "Лук репчатый — 6 шт",
               "starred": false
             },
             {
@@ -5632,87 +5694,57 @@
             },
             {
               "id": "morkov-main-2",
-              "text": "Морковь — 4 шт",
+              "text": "Морковь — 8 шт (плов 500 г соломкой + тефтели)",
               "starred": false
             },
             {
               "id": "kartofel-main-3",
-              "text": "Картофель — 1.5 кг",
+              "text": "Картофель — 1.5 кг (запечённая курица + гарнир)",
               "starred": false
             },
             {
-              "id": "pomidory-svezhie-main-4",
-              "text": "Помидоры свежие — 6 шт (шакшука, мастава, тефтели)",
+              "id": "griby-shampinony-main-4",
+              "text": "Грибы шампиньоны — 200 г (бефстроганов)",
               "starred": false
             },
             {
-              "id": "pomidory-cherri-main-5",
-              "text": "Помидоры черри — 250 г (к стейку)",
+              "id": "pomidory-svezhie-main-5",
+              "text": "Помидоры свежие — 5 шт (шакшука)",
               "starred": false
             },
             {
-              "id": "ogurtsy-main-6",
-              "text": "Огурцы — 4 шт",
+              "id": "avokado-main-6",
+              "text": "Авокадо — 3 шт (тосты, скрэмбл)",
               "starred": false
             },
             {
-              "id": "selderey-main-7",
-              "text": "Сельдерей — 1 стебель (для болоньезе)",
+              "id": "limon-main-7",
+              "text": "Лимон — 4 шт",
               "starred": false
             },
             {
-              "id": "avokado-main-8",
-              "text": "Авокадо — 2 шт",
+              "id": "banan-main-8",
+              "text": "Банан — 3 шт (овсянка)",
               "starred": false
             },
             {
-              "id": "limon-main-9",
-              "text": "Лимон — 3 шт",
+              "id": "ukrop-main-9",
+              "text": "Укроп — 2 пучка",
               "starred": false
             },
             {
-              "id": "banan-main-10",
-              "text": "Банан — 3 шт",
+              "id": "petrushka-main-10",
+              "text": "Петрушка — 1 пучок",
               "starred": false
             },
             {
-              "id": "rukkola-main-11",
-              "text": "Руккола — 100 г (к стейку в субботу)",
-              "starred": false
-            },
-            {
-              "id": "kinza-main-12",
+              "id": "kinza-main-11",
               "text": "Кинза — 1 пучок",
               "starred": false
             },
             {
-              "id": "ukrop-main-13",
-              "text": "Укроп — 1 пучок",
-              "starred": false
-            },
-            {
-              "id": "petrushka-main-14",
-              "text": "Петрушка — 1 БОЛЬШОЙ пучок  (чимичурри!)",
-              "starred": true
-            },
-            {
-              "id": "bazilik-svezhiy-main-15",
-              "text": "Базилик свежий — 1 пучок (к болоньезе)",
-              "starred": false
-            },
-            {
-              "id": "rozmarin-main-16",
-              "text": "Розмарин — 1 веточка (к стейк-картошке)",
-              "starred": false
-            },
-            {
-              "id": "timyan-svezhiy-main-17",
-              "text": "Тимьян свежий — 1 веточка (если есть, для стейка)",
-              "starred": false
-            },
-            {
-              "id": "imbir-svezhiy-main-18",
-              "text": "Имбирь свежий — небольшой корень (терияки)",
+              "id": "rozmarin-main-12",
+              "text": "Розмарин — 2 веточки (запечённая курица)",
               "starred": false
             }
           ]
@@ -5723,38 +5755,38 @@
           "title": "Бакалея",
           "items": [
             {
-              "id": "ris-kruglyy-main-0",
-              "text": "Рис круглый — 500 г (тефтели + мастава)",
+              "id": "ris-dlya-plova-devzira-ili-kruglyy-uzbekskiy-main-0",
+              "text": "Рис для плова (devzira или круглый узбекский) — 500 г",
               "starred": false
             },
             {
-              "id": "ris-dlinnozernyy-main-1",
+              "id": "ris-kruglyy-main-1",
+              "text": "Рис круглый — 500 г (тефтели, мастава)",
+              "starred": false
+            },
+            {
+              "id": "ris-dlinnozernyy-main-2",
               "text": "Рис длиннозерный — 500 г (терияки, жареный рис)",
               "starred": false
             },
             {
-              "id": "spagetti-ili-talyatelle-main-2",
-              "text": "Спагетти или тальятелле — 500 г (болоньезе)",
+              "id": "grechka-main-3",
+              "text": "Гречка — 500 г (стейк-минутка)",
               "starred": false
             },
             {
-              "id": "hleb-tostovyy-main-3",
+              "id": "spagetti-main-4",
+              "text": "Спагетти — 500 г (алио-олио)",
+              "starred": false
+            },
+            {
+              "id": "hleb-tostovyy-main-5",
               "text": "Хлеб тостовый — 1 батон",
               "starred": false
             },
             {
-              "id": "lepeshka-main-4",
-              "text": "Лепёшка — 2 шт (к маставе) — можно докупить позже свежие",
-              "starred": false
-            },
-            {
-              "id": "pomidory-v-sobstvennom-soku-main-5",
-              "text": "Помидоры в собственном соку — 1 банка 400 г (болоньезе)",
-              "starred": false
-            },
-            {
-              "id": "tomat-pasta-main-6",
-              "text": "Томат-паста — 1 банка",
+              "id": "hleb-belyy-main-6",
+              "text": "Хлеб белый — 1 буханка (мякиш для тефтелей/котлет)",
               "starred": false
             },
             {
@@ -5763,90 +5795,90 @@
               "starred": false
             },
             {
-              "id": "orehi-gretskie-ili-mindal-main-8",
-              "text": "Орехи (грецкие или миндаль) — 200 г",
+              "id": "gretskie-orehi-main-8",
+              "text": "Грецкие орехи — 200 г",
               "starred": false
             },
             {
-              "id": "med-main-9",
-              "text": "Мёд — 1 банка (если нет)",
+              "id": "tomat-pasta-main-9",
+              "text": "Томат-паста — 1 банка",
               "starred": false
             },
             {
-              "id": "olivkovoe-maslo-main-10",
-              "text": "Оливковое масло — 0.5 л (если заканчивается)",
+              "id": "muka-main-10",
+              "text": "Мука — (сырники, котлеты, бефстроганов)",
               "starred": false
             },
             {
-              "id": "rastitelnoe-maslo-rafinirovannoe-main-11",
-              "text": "Растительное масло рафинированное — для жарки стейка",
+              "id": "med-main-11",
+              "text": "Мёд — (если нет)",
               "starred": false
             },
             {
-              "id": "uksus-vinnyy-ili-yablochnyy-main-12",
-              "text": "Уксус винный или яблочный — 1 бутылка (для чимичурри)",
+              "id": "varene-ili-dzhem-main-12",
+              "text": "Варенье или джем — (к сырникам)",
               "starred": false
             },
             {
-              "id": "uksus-balzamicheskiy-main-13",
-              "text": "Уксус бальзамический — (для салата с рукколой)",
-              "starred": false
-            },
-            {
-              "id": "soevyy-sous-main-14",
+              "id": "soevyy-sous-main-13",
               "text": "Соевый соус — (если нет)",
               "starred": false
             },
             {
-              "id": "krasnoe-vino-suhoe-main-15",
-              "text": "Красное вино сухое — 200 мл (опционально, для болоньезе)",
+              "id": "uksus-9-main-14",
+              "text": "Уксус 9% — (для пашота)",
               "starred": false
             },
             {
-              "id": "izyum-ili-varene-main-16",
-              "text": "Изюм или варенье — (к сырникам)",
+              "id": "olivkovoe-maslo-main-15",
+              "text": "Оливковое масло — (если заканчивается)",
+              "starred": false
+            },
+            {
+              "id": "rastitelnoe-maslo-rafinirovannoe-main-16",
+              "text": "Растительное масло рафинированное — (жарка стейка, плова)",
               "starred": false
             }
           ]
         },
         {
-          "id": "spetsii-proverit-chto-uzhe-est",
+          "id": "spetsii-proverit-chto-est",
           "emoji": "🧂",
-          "title": "Специи (проверить, что уже есть)",
+          "title": "Специи (проверить, что есть)",
           "items": [
             {
-              "id": "sol-krupnaya-morskaya-main-0",
-              "text": "Соль крупная (морская) — (для стейка)",
+              "id": "sol-krupnaya-obychnaya-main-0",
+              "text": "Соль крупная + обычная",
               "starred": false
             },
             {
-              "id": "sol-obychnaya-main-1",
-              "text": "Соль обычная",
-              "starred": false
-            },
-            {
-              "id": "perets-chernyy-goroshkom-molotyy-main-2",
+              "id": "perets-chernyy-goroshkom-molotyy-main-1",
               "text": "Перец чёрный горошком + молотый",
               "starred": false
             },
             {
-              "id": "zira-mastava-main-3",
-              "text": "Зира (мастава)",
-              "starred": false
-            },
-            {
-              "id": "paprika-molotaya-main-4",
+              "id": "paprika-molotaya-main-2",
               "text": "Паприка молотая",
               "starred": false
             },
             {
-              "id": "hlopya-krasnogo-pertsa-chili-main-5",
-              "text": "Хлопья красного перца (чили) — для чимичурри",
-              "starred": true
+              "id": "zira-plov-mastava-shakshuka-main-3",
+              "text": "Зира (плов, мастава, шакшука)",
+              "starred": false
             },
             {
-              "id": "oregano-sushenyy-main-6",
-              "text": "Орегано сушёный — (для чимичурри)",
+              "id": "barbaris-plov-esli-naydetsya-main-4",
+              "text": "Барбарис (плов, если найдётся)",
+              "starred": false
+            },
+            {
+              "id": "koritsa-ovsyanka-main-5",
+              "text": "Корица (овсянка)",
+              "starred": false
+            },
+            {
+              "id": "vanilin-syrniki-main-6",
+              "text": "Ванилин (сырники)",
               "starred": false
             },
             {
@@ -5860,77 +5892,230 @@
     },
     {
       "id": "mini",
-      "title": "Закупка 2 — мини, примерно 6 мая",
-      "subtitle": "среда",
+      "title": "Закупка 2 — мини",
+      "subtitle": "около 31 мая, на вторую неделю",
       "groups": [
         {
-          "id": "misc",
-          "emoji": "🛒",
-          "title": "Дополнительно",
+          "id": "myaso-i-ryba",
+          "emoji": "🥩",
+          "title": "Мясо и рыба",
           "items": [
             {
-              "id": "luk-repchatyy-mini-0",
-              "text": "Лук репчатый — 2 шт",
+              "id": "baranina-ili-govyadina-s-kostochkoy-mini-0",
+              "text": "Баранина или говядина с косточкой — 500 г (мастава)",
               "starred": false
             },
             {
-              "id": "pomidory-svezhie-mini-1",
-              "text": "Помидоры свежие — 4 шт (на оставшиеся завтраки)",
+              "id": "kurinoe-bedro-bez-kosti-mini-1",
+              "text": "Куриное бедро без кости — 250 г (терияки)",
               "starred": false
             },
             {
-              "id": "ogurtsy-mini-2",
-              "text": "Огурцы — 3 шт",
+              "id": "kurinoe-file-mini-2",
+              "text": "Куриное филе — 400 г (жареный рис + цезарь)",
               "starred": false
             },
             {
-              "id": "avokado-mini-3",
-              "text": "Авокадо — 1 шт (для пятничного тоста)",
+              "id": "farsh-kurinyy-mini-3",
+              "text": "Фарш куриный — 500 г (котлетки)",
               "starred": false
             },
             {
-              "id": "limon-mini-4",
-              "text": "Лимон — 1 шт",
+              "id": "govyadina-vyrezka-mini-4",
+              "text": "Говядина вырезка — 250 г (тёплый салат)",
               "starred": false
             },
             {
-              "id": "kinza-mini-5",
-              "text": "Кинза — 1 пучок",
+              "id": "krevetki-ochischennye-mini-5",
+              "text": "Креветки очищенные — 200 г (алио-олио)",
               "starred": false
             },
             {
-              "id": "ukrop-mini-6",
-              "text": "Укроп — 1 пучок",
+              "id": "steyk-ribay-mini-6",
+              "text": "Стейк рибай — 1 шт (300–400 г), толщина 2.5–3 см  (стейк-вечер 6 июня)",
+              "starred": true
+            },
+            {
+              "id": "kurinye-krylya-mini-7",
+              "text": "Куриные крылья — 600 г (7 июня)",
+              "starred": false
+            }
+          ]
+        },
+        {
+          "id": "molochka",
+          "emoji": "🥛",
+          "title": "Молочка",
+          "items": [
+            {
+              "id": "katyk-ili-smetana-mini-0",
+              "text": "Катык или сметана — 0.5 л (мастава)",
               "starred": false
             },
             {
-              "id": "zelenyy-luk-mini-7",
-              "text": "Зелёный лук — 1 пучок (к жареному рису)",
+              "id": "smetana-mini-1",
+              "text": "Сметана — 200 г (соус к котлеткам)",
               "starred": false
             },
             {
-              "id": "zelen-salatnaya-lyubaya-k-zapechennoy-kuritse-mini-8",
-              "text": "Зелень салатная (любая, к запечённой курице) — 1 пучок",
+              "id": "parmezan-mini-2",
+              "text": "Пармезан — 150 г (цезарь + салат к стейку)",
               "starred": false
             },
             {
-              "id": "lepeshka-svezhaya-mini-9",
-              "text": "Лепёшка свежая — 1–2 шт",
-              "starred": false
-            },
-            {
-              "id": "hleb-tostovyy-mini-10",
-              "text": "Хлеб тостовый — 1 батон (если закончился)",
-              "starred": false
-            },
-            {
-              "id": "moloko-mini-11",
+              "id": "moloko-mini-3",
               "text": "Молоко — 0.5 л (если закончилось)",
               "starred": false
             },
             {
-              "id": "smetana-mini-12",
-              "text": "Сметана — 200 г (если закончилась)",
+              "id": "yaytsa-mini-4",
+              "text": "Яйца — 10 шт (если закончились)",
+              "starred": false
+            }
+          ]
+        },
+        {
+          "id": "ovoschi-frukty-zelen",
+          "emoji": "🥬",
+          "title": "Овощи, фрукты, зелень",
+          "items": [
+            {
+              "id": "luk-repchatyy-mini-0",
+              "text": "Лук репчатый — 4 шт",
+              "starred": false
+            },
+            {
+              "id": "morkov-mini-1",
+              "text": "Морковь — 2 шт (мастава)",
+              "starred": false
+            },
+            {
+              "id": "kartofel-mini-2",
+              "text": "Картофель — 800 г (мастава + пюре к котлеткам)",
+              "starred": false
+            },
+            {
+              "id": "pomidory-svezhie-mini-3",
+              "text": "Помидоры свежие — 4 шт (мастава)",
+              "starred": false
+            },
+            {
+              "id": "pomidory-cherri-mini-4",
+              "text": "Помидоры черри — 250 г (стейк-салат, тёплый салат)",
+              "starred": false
+            },
+            {
+              "id": "ogurtsy-mini-5",
+              "text": "Огурцы — 3 шт",
+              "starred": false
+            },
+            {
+              "id": "krasnyy-luk-mini-6",
+              "text": "Красный лук — 2 шт (тёплый салат)",
+              "starred": false
+            },
+            {
+              "id": "salat-latuk-ili-romen-mini-7",
+              "text": "Салат латук или ромэн — 1 пучок (цезарь)",
+              "starred": false
+            },
+            {
+              "id": "miks-salat-rukkola-mini-8",
+              "text": "Микс салат / руккола — 150 г (тёплый салат + к стейку)",
+              "starred": false
+            },
+            {
+              "id": "imbir-svezhiy-mini-9",
+              "text": "Имбирь свежий — небольшой корень (терияки, жареный рис)",
+              "starred": false
+            },
+            {
+              "id": "zelenyy-luk-mini-10",
+              "text": "Зелёный лук — 1 пучок (жареный рис, терияки)",
+              "starred": false
+            },
+            {
+              "id": "avokado-mini-11",
+              "text": "Авокадо — 1 шт (тост 6 июня)",
+              "starred": false
+            },
+            {
+              "id": "limon-mini-12",
+              "text": "Лимон — 2 шт",
+              "starred": false
+            },
+            {
+              "id": "petrushka-mini-13",
+              "text": "Петрушка — 1 БОЛЬШОЙ пучок  (чимичурри!)",
+              "starred": true
+            },
+            {
+              "id": "kinza-mini-14",
+              "text": "Кинза — 1 пучок (мастава)",
+              "starred": false
+            },
+            {
+              "id": "ukrop-mini-15",
+              "text": "Укроп — 1 пучок",
+              "starred": false
+            },
+            {
+              "id": "timyan-svezhiy-mini-16",
+              "text": "Тимьян свежий — 1 веточка (стейк, если есть)",
+              "starred": false
+            }
+          ]
+        },
+        {
+          "id": "bakaleya",
+          "emoji": "🍝",
+          "title": "Бакалея",
+          "items": [
+            {
+              "id": "lepeshka-mini-0",
+              "text": "Лепёшка — 2 шт (мастава)",
+              "starred": false
+            },
+            {
+              "id": "sous-tsezar-gotovyy-mini-1",
+              "text": "Соус Цезарь готовый — (или сделать самому)",
+              "starred": false
+            },
+            {
+              "id": "ketchup-mini-2",
+              "text": "Кетчуп — (соус для крыльев BBQ)",
+              "starred": false
+            },
+            {
+              "id": "balzamicheskiy-uksus-mini-3",
+              "text": "Бальзамический уксус — (салаты)",
+              "starred": false
+            },
+            {
+              "id": "uksus-vinnyy-ili-yablochnyy-mini-4",
+              "text": "Уксус винный или яблочный — (чимичурри)",
+              "starred": false
+            },
+            {
+              "id": "kunzhut-mini-5",
+              "text": "Кунжут — (терияки, крылья)",
+              "starred": false
+            }
+          ]
+        },
+        {
+          "id": "spetsii",
+          "emoji": "🧂",
+          "title": "Специи",
+          "items": [
+            {
+              "id": "hlopya-krasnogo-pertsa-chili-mini-0",
+              "text": "Хлопья красного перца (чили) —  (чимичурри)",
+              "starred": true
+            },
+            {
+              "id": "oregano-sushenyy-mini-1",
+              "text": "Орегано сушёный — (чимичурри)",
               "starred": false
             }
           ]
